@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div class="">
+        <div class="header">
+            <!--Menu-->
+            <div class="menu-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <p class="logo-name"><img src="img/logo.png" alt=""></p>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LỊCH CHIẾU THEO RẠP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PHIM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">RẠP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIÁ VÉ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TIN MỚI VÀ ƯU ĐÃI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NHƯỢNG QUYỀN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">THÀNH VIÊN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="main">
+            <!--Slides-->
+            <div class="Slides">
+                <img class="mySlides" src="img/slides1.jpg">
+                <img class="mySlides" src="img/slides2.jpg">
+                <img class="mySlides" src="img/slides3.jpg">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="infor">
+                <div class="infor-item">
+                    <img src="img/logo.png" alt="">
+                    <ul>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Hoạt động xã hội</a></li>
+                        <li><a href="#">Chính sách thanh toán, đổi trả - hoàn vé</a></li>
+                        <li><a href="#">Điều khoản bảo mật</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">F.A.Q</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Liên hệ quảng cáo</a></li>
+                        <li><a href="#">Hưởng dẫn sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="infor-item">
+                    <h5>CỤM RẠP BETA</h5>
+                    <ul> 
+                        <li><a href="#"> Beta Cinemas Empire Bình Dương - Hotline 0934 573 748</a></li>
+                        <li><a href="#"> Beta Cinemas Quang Trung, tp Hồ Chí Minh - Hotline 036 9939 722</a></li>
+                        <li><a href="#"> Beta Cinemas Giải Phóng, Hà Nội - Hotline 0585 680 360</a></li>
+                        <li><a href="#"> Beta Cinemas Thanh Xuân, Hà Nội - Hotline 082 4812878</a></li>
+                        <li><a href="#"> Beta Cinemas Mỹ Đình, Hà Nội - Hotline 0866 154 610</a></li>
+                        <li><a href="#"> Beta Cinemas Đan Phượng, Hà Nội - Hotline 0983 901 714</a></li>
+                        <li><a href="#"> Beta Cinemas Thái Nguyên - Hotline 0867 460 053</a></li>
+                        <li><a href="#"> Beta Cinemas Thanh Hóa - Hotline 0325 360 249</a></li>
+                        <li><a href="#"> Beta Cinemas Bắc Giang - Hotline 0866 493 413</a></li>
+                        <li><a href="#"> Beta Cinemas Nha Trang, Khánh Hòa - Hotline 0399 475 165</a></li>
+                    </ul>
+                </div>
+                <div class="infor-item">
+                    <h5>LIÊN HỆ</h5>
+                    <p>Địa chỉ trụ sở: Tầng 3, số 595, đường Giải Phóng, phường Giáp Bát, quận Hoàng Mai, thành phố Hà Nội</p>
+                    <p>Hotline: 0934 632 682</p>
+                    <p>Email: cskh@betacorp.vn</p>
+                    <p>Liên hệ hợp tác kinh doanh: minh@betacorp.vn</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Javascript Slides-->
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000); // Change image every 4 seconds
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
